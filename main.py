@@ -59,9 +59,9 @@ def start_training(char_name: str, char_class: str) -> str:
     return 'Тренировка окончена.'
 
 
-def choice_char_class() -> str:
-    approve_choice: str = None
-    char_class: str = None
+def choice_char_class():
+    approve_choice = None
+    char_class = None
     while approve_choice != 'y':
         char_class = input('Введи название персонажа, '
                            'за которого хочешь играть: Воитель — warrior, '
